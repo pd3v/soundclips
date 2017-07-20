@@ -1,2 +1,2 @@
 # soundclips
-Sound bits coding in TidalCyles.
+Soundclip coding in TidalCyles.

@@ -1,3 +1,2 @@
 d1 $ every 8 (fast 2) $ sound "psin(3,8)" # every 6 (rev) (n (every 4 (+ irand 4) "0 5 12"))               
- 14 # crush ((+ irand 3) $ "7 3")                                                                              
- 15 # room (slow 12 $ "0.0 0.4") # size "0.7"
+# crush ((+ irand 3) $ "7 3")                                               # room (slow 12 $ "0.0 0.4") # size "0.7"

@@ -1,0 +1,6 @@
+-- Both Cuban Euclidean Seqs playing together with beat ration for rhythmic motion  
+
+d1 $ stack [
+every 4 (0.25 <~) $ sound "<bd(3,8)>", 
+sound "bd(5,8)" # cutoff (slow 2.5 $ (tri * 4000) + 200) # resonance "0.1" # gain "1.1"
+]

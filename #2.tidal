@@ -1,2 +1,5 @@
-d1 $ every 8 (fast 2) $ sound "psin(3,8)" # every 6 (rev) (n (every 4 (+ irand 4) "0 5 12"))            # crush ((+ irand 3) $ "7 3")                                              
-# room (slow 12 $ "0.0 0.4") # size "0.7"
+-- "Technoish" phrasing with a some random note twists and random bit crushing for expression sake  
+
+d1 $ every 8 (fast 2) $ sound "psin(3,8)" # every 6 (rev) (n (every 4 (+ irand 4) "0 5 12"))
+# crush ((+ irand 3) $ "7 3")                                              
+# room (slow 8 $ "<0.0 0.9>") # size "0.3"

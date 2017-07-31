@@ -1,0 +1,8 @@
+d1 $ every 8 (fast 8) $ up "[0, 5, 7] [5, 7, 11]" # s "gtr:5" # bandf "<1600 200>"
+--  # bandq "<1.0 0.9 0.6 0.2>") 
+-- # crush "<0 6>" -- # release "1"
+
+d1 $ fast 2 $ sound "[bd hh, bass ~ <[bass*2 ~] [bass ~] bass!4>]" # bandf "<1000 100 500 2500 40 80 120>"
+
+
+hush

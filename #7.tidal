@@ -1,0 +1,5 @@
+-- 4/4 drums with semi-random fills
+
+bps(160/69)
+
+d1 $ every 8 (linger "<0.875 0.75 0.125>") $ sound "[bd!4, [~ sn:2]]"

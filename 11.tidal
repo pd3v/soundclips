@@ -1,4 +1,4 @@
 -- Pop/Rock drums                                                                                      
 
-d1 $ every 8 (linger "0.75") $ sound "[bd, [~ sn:3], [~ ~ co <~ co>/3], hh:0*2 hh:1/4]]"
+d1 $ every 8 (linger "0.75") $ sound "[bd, [~ sn:3], [~ ~ co <~ co>/3], hh*2 hh:1/4]]"
 

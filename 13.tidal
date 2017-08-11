@@ -1,0 +1,9 @@
+-- Not driven today, if, if ...
+
+d1 $ ifp ((== 0).(flip mod 4))
+  (fast 2)
+  (# room "<0.1 0.2>") $
+  ifp ((== 0).(flip mod 6))
+    (# crush "6")
+    (# n (choose[1, 7])) $
+    sound "[bd:4!4, sid:0*2, [~ sid:8]*2]"

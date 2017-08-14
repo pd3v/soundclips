@@ -1,0 +1,7 @@
+-- the Machine is on
+
+d1 $ seqPLoop [
+  (1, 24, sound "tacscan" # slow 24 (cutoff (2600 * sine1 + 400))),
+  (12, 20, sound "ade:4"),
+  (4, 8, sound "feelfx:5!8" # n (choose[2, 7]) # speed (run (rand * 4 + 2)) # gain "0.8")
+] # tremolorate "5.0" # tremolodepth (slow 12 sine1)

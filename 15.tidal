@@ -2,5 +2,6 @@
 
 d1 $ stack [
   sound "[bd sn:2 [sn:2 <bd sn:3>] ~, co:4 co]",
-  n (off 0.125 (+7) $ off 0.75 (+7) $ slow "<2 4>" $ "0(5,8) [0 1]") # sound "jvbass" # gain "0.9"
+  n (off 0.125 (+7) $ off 0.75 (+7) $ slow "<2 4>" $ "0(5,8) [0 1]") # sound "jvbass" 
+  # coarse (slow 4 $ "<15..25 1..10>")
 ]

@@ -1,0 +1,3 @@
+-- sitar hypnosis
+
+d1 $ juxBy 0.25 (# (slow 8 (speed (scale 0 4 sine1)))) $ sound "[sitar, sitar:5/4]"

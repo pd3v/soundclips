@@ -4,6 +4,5 @@ let majScale = toScale Scales.major
 
 d1 $ stack [
 n (majScale $ every 5 (rev) $ fast "<1 2 0.5 <~ 0.75>>" (run "12")) # sound "jvbass" # gain "0.7" # pan "0.25", 
-n (majScale $ shuffle 5 "0 8 12") # sound "jvbass" # gain "1" # pan "0.75"] 
-# delay "0.4" # delaytime "0.4" # delayfeedback "0.5" 
-
+n (majScale $ shuffle 5 "0 8 12") # sound "jvbass" # gain "1" # pan "0.75"]
+# delay "0.4" # delayt "0.4" # delayfb "0.5"

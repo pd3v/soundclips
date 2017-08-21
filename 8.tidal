@@ -1,4 +1,4 @@
 -- drum and bass variations with 'linger' and 'bandf'
 
-d1 $ linger (slow 8 $ "<<0.875 0.3125> 1.0>") $ sound "[[bd, <~ sn:3>], bass ~ <[bass*2 ~] [bass ~]> bass!4]"# bandf "<1000 100 500 2500 40 4000 80>"
-
+d1 $ linger (slow 8 $ "<<0.875 0.3125> 1.0>") $ sound "[[bd, <~ sn:3>], bass ~ <[bass*2 ~] [bass ~]> bass!4]"
+# bandf "<1000 100 500 2500 40 4000 80>"

@@ -1,4 +1,4 @@
 -- imposing?
 
 d1 $ every 4 (linger 0.75) $ sound "[bd [808bd:1 bd] bd bd, bass, ~!3 <noise2:4 noise*2>]"
-# slow 8 (crush "20")
+# slow 8 (crush "20 5 8 20")

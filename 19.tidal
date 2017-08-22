@@ -1,0 +1,5 @@
+-- brainwash
+
+d1 $ someCyclesBy 0.25 (superimpose (slow "1.25"))
+$ chop 16 $ sound "newnotes*16"
+# speed (irand 12 + 24)

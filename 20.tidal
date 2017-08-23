@@ -1,0 +1,9 @@
+-- frequency bisect
+
+cps (0.32)
+
+d1 $ stack[
+sound "alex"
+# tremolorate (slow 4 $ "1.6 3.2 12.8") # tremolodepth "1.0"
+# bpf 40 # cutoff 100 # bandq 100,
+sound "alex" # hpf 9000]

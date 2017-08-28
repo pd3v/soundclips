@@ -1,0 +1,5 @@
+-- fast & lingered
+
+d1 $ every 4 (linger "0.75") $ s (mask ("1 <~ 1> 1 <~ 1>" :: Pattern Bool)
+  (fastcat ["808bd*4", "sn:4"] ))
+  # n ((run 4) + 4)

@@ -2,6 +2,6 @@
 
 cps 0.1381
 
-d1 $ juxBy 0.125 ((# speed "0.25"))
+d1 $ juxBy 0.125 (# speed "0.25")
 $ every 4 ((# cutoff (slow 1.5 (scale 0.05 1.0 sine * 2000))))
 $ striate' 32 (1/8) $ sound "led"

@@ -1,0 +1,4 @@
+-- variantions of a smashed d&b
+
+d1 $ juxBy 0.125 (linger "0.75" . every 4 (smash 32 [2, 4, 8, 16]))
+$ n "<[0..7] [0..3] [0..1]>" # sound "[dr_few, <sn bass>]"

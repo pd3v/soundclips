@@ -1,0 +1,7 @@
+-- ifdrums then bass 
+
+import qualified Sound.Tidal.Scales as Scales
+
+let minScale = toScale Scales.minor
+
+d1 $ juxBy 0.25 (# slow 2 (speed (run 5))) $ n (minScale $ shuffle 8 "0*2 5*4") # s "[ifdrums, bass1]"

@@ -1,0 +1,4 @@
+-- lesser effort for greater impact
+
+d1 $ juxBy 0.25 (# slow 4 (coarse "<0 10*8>" # bpf (scale 1000 4000 saw1) # bandq 8 # gain (scale 0.6 1.2 sine1))) 
+$ n "[0..7]" # s "[auto, house]"

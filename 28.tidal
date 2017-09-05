@@ -1,0 +1,4 @@
+-- steady
+
+d1 $ juxBy 0.25 (("<0.5 0.25 0.125>"<~).(# slow 4 (crush "<3 5 9>*4" # bpf (scale 300 2000 saw1) # bandq 8 # gain (scale 0.6 1 sine1)))) 
+$ n "[4..11]" # s "[auto, bass3]"

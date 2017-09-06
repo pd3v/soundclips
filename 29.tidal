@@ -1,0 +1,4 @@
+-- reckless
+
+d1 $ every 4 (spread fast [2,3,4].linger 0.5) $ juxBy 0.25 (iter 4) $ n "[8..14]" 
+# sound "glitch"

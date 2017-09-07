@@ -1,0 +1,5 @@
+-- synthetic expression 
+
+d1 $ every 4 (# n "[0,4,7] [1,5,8]") $ n (irand 35) 
+# sound "[super808, supercomparator]" 
+# slow (irand 8 + 1) (sustain (scale 0.1 2 sine1))

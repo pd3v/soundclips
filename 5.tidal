@@ -2,4 +2,4 @@
 
 d1 $ sometimesBy 0.125 (stut' 2 (1/2) (# coarse 7)) $ sometimesBy 0.25 (swingBy (1/4) 8) $ up (irand 47 + 1)
 # sound "newnotes"
-# delay "0.3" # delayfb "0.4" # delayt "0.3"
+# delay 0.3 # delayfb 0.4 # delayt 0.3

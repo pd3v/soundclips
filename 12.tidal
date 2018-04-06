@@ -1,4 +1,4 @@
 -- Nervous sliding notes and dizzying panning
 
-d1 $ jux (linger 0.125) $ speed (slow 16 $ scale 1 12 (sine1 * tri1)) # sound "[bd, [~ sn:2], jvbass!2]"
+d1 $ jux (linger 0.125) $ speed (slow 16 $ scale 1 12 (sine1 * tri1)) # s "[bd, [~ sn:2], jvbass!2]"
 # pan (slow 4 $ sine1 * square1)

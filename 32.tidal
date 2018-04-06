@@ -1,0 +1,6 @@
+-- Based on 1.tidal pattern
+
+d1 $ n "[[c5,e5,g5,b6]*8, <c7 cs7*3 d7*4 ds7*6>]" # s "supersquare" # rel 0.3
+# bandf (density 3 $ saw1 * (4500 * rand) + (300 * (density 1.0001 rand)))
+# bandq 7.5
+# room (slow 2 $ (sine1)) # size (slow 4 $ sine1)

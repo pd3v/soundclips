@@ -1,6 +1,6 @@
 -- what?!
 
 d1 $ stack [
-sound "[bd!2, sn:3, <~ co>, [~!3 <hh [~ hh!2]>]]",
-juxBy 0.25 (# accelerate (scale (-2) 2 tri1)) $ smash 16 [2, 4, 8] $ sound "toys:5"
-# gain "0.7"]
+s "[bd!2, sn:3, <~ co>, [~!3 <hh [~ hh!2]>]]",
+juxBy 0.25 (# accelerate (scale (-2) 2 tri1)) $ smash 16 [2, 4, 8] $ s "toys:5"
+# gain 0.7]

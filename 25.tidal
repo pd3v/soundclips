@@ -5,6 +5,6 @@ import qualified Sound.Tidal.Scales as Scales
 let minScale = toScale Scales.minor
 
 d1 $ stack [
-  juxBy 0.25 (every 4 (linger "0.75")) $ n (minScale $ shuffle 8 "0*2 8*4") # s "supersquare" # coarse "2 5 10",
+  juxBy 0.25 (every 4 (linger 0.75)) $ n (minScale $ shuffle 8 "0*2 8*4") # s "supersquare" # coarse "2 5 10",
   every 4 (rev . slow 4) $ slow 3 $ n (minScale $ run "<24 36>") # s "supersquare"
-] # delay "0.5" # delayt "0.4" # delayfb "0.5"
+] # delay 0.5 # delayt 0.4 # delayfb 0.5

@@ -1,0 +1,3 @@
+-- groovin' n movin'
+
+d1 $ ghost $ every 4 ((#speed 2).(#pan rand).(#coarse (irand 30))) $ n (scale 3 10 sine1) # s "perc"

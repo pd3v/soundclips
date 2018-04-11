@@ -1,0 +1,4 @@
+-- keep groovin' n movin'
+
+d1 $ ghost $ every 4 (superimpose (fast "<1 4 0.5 0.0625>").(chop 8).(#speed 2).(#pan rand))
+$ n (scale 3 10 sine1) # s "perc"

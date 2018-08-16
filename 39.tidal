@@ -1,0 +1,8 @@
+arpg :: Num a => Pattern String -> Pattern a
+arpg c = breakUp $ chord c
+  
+d1 $ stack [
+  density 0.5 $ n (chord "major7") # gain 0.85, 
+  jux (rev.every 4 (fast 2)) $ n (iter 4 $ arpg "major7" + "<c5 c4 c6 g4>")] # s "superpiano"
+  # room 0.8 # size 0.7 # delay 0.7 # delayt 0.5 # delayfb 0.45 # orbit 1
+

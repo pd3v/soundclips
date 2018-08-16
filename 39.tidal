@@ -1,3 +1,5 @@
+-- arpeggiated poem
+
 arpg :: Num a => Pattern String -> Pattern a
 arpg c = breakUp $ chord c
   

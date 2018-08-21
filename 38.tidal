@@ -1,0 +1,12 @@
+elastic :: Rational -> Pattern a -> Pattern a
+elastic e
+  | e > 0   = spaceOut lst
+  | e < 0   = spaceOut $ reverse lst
+  | e == 0  = spaceOut [1]
+  where lst = map (1/) [1..abs e]
+
+-- perennial lacing
+
+d1 $ stack [elastic 10 $ shuffle 4 $ s "[808bd:1 [~ v*4 ~]*3]" # gain 1.3,
+elastic (-10) $ scramble 4 $ n "0 3 6 10" # s "superhex" # cutoff 1500 # gain 0.8]
+# room 0.8 # size 0.6

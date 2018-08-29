@@ -1,9 +1,6 @@
-arpg :: Num a => Pattern String -> Pattern a
-arpg p = breakUp $ chord p
-
 -- the world is beautiful
 
 d1 $ stack [
-  slow 2 $ n (chord "<major7(3,8) major7(3,4)>" + "<c5 g5>") |+| n (irand 3 * "<12 -12>") # gain 0.8,
+  slow 2 $ n (chord "<major7(3,8) major7(3,4)>" + "<c5 g5>") |+| n (irand 3 * "<12 -12 0>") # gain 0.8,
   jux (rev.(fast 2).every 16 (fast 0.5).(|+| delayfb 0.6).(|+| n (irand 3 * "<12 0>"))) $ n (iter 4 $ arpg "major7" + "<c5 c4 c6 g4>")] # s "superpiano"
   # room 0.8 # size 0.7 # delay 0.7 # delayt 0.5 # delayfb 0.45 # orbit 1

@@ -1,8 +1,5 @@
 -- arpeggiated poem
 
-arpg :: Num a => Pattern String -> Pattern a
-arpg c = breakUp $ chord c
-
 d1 $ stack [
   slow 2 $ n (chord "major7") # gain 0.85,
   jux (rev.every 4 (fast 2)) $ n (iter 4 $ arpg "major7" + "<c5 c4 c6 g4>")] # s "superpiano"

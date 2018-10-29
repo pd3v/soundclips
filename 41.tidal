@@ -1,0 +1,4 @@
+-- scatchip 
+do
+  d1 $ every 8 (zoom (1%16, 1%8)) $ n (choose[0..24]) # s "bd sn <bd dr [~ dr2]> hc" # crush (choose[2..8])
+  d2 $ jux ((brak.degradeBy 0.3.(|+| n(choose[-24,-12])))) $ degrade $ iter 4 $ n (fast 2 $ breakUp $ chord "minor7") # s "superchip" # gain 0.8

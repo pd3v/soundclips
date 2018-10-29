@@ -1,5 +1,6 @@
 -- changing something so that everything stays the same
 
 d1 $ every 4 (scramble 12) $ (shuffle 12) $ n (scaleP "aeolian" "11..0") # s "superpiano"
-# coarse (listToPat $ reverse $ [1..11])
-# delay 0.75 # delayt 0.125 # delayfb 0.55  
+# coarse (rev $ run(11) + 1)
+# delay 0.75 # delayt 0.125 # delayfb 0.55
+# orbit 1

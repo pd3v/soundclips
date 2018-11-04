@@ -1,4 +1,5 @@
--- scatchip 
-do
-  d1 $ every 8 (zoom (1%16, 1%8)) $ n (choose[0..24]) # s "bd sn <bd dr [~ dr2]> hc" # crush (choose[2..8])
-  d2 $ jux ((brak.degradeBy 0.3.(|+| n(choose[-24,-12])))) $ degrade $ iter 4 $ n (fast 2 $ breakUp $ chord "minor7") # s "superchip" # gain 0.8
+-- scatsuperchip
+
+p "1" $ stack [n (discretise 16 $ choose[0..24]) # s "bd sn <bd dr [~ dr2]> hc" # crush (discretise 4 $ choose[2..8]),
+jux (degradeBy 0.7.(+ n (choose[-12,-7,7,12])).(#pan (slow 2 $ discretise 6 $ rand))) $ degrade $ iter 4
+$ n (fast 4 $ iter 4 $ breakUp $ "[0,3,7,10]" - 12) # s "superchip" # rel 0.15]
